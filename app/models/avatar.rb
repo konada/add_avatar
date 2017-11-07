@@ -1,3 +1,5 @@
+require "paperclip/railtie"
+
 class Avatar < ActiveRecord::Base
   belongs_to :source
 
